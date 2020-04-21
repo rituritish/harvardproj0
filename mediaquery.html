@@ -12,7 +12,11 @@
         }
          
         @media (max-width: 500px){
-                   body {background-color: red;;
+                   body {background-color: red;
+
+                   }
+                   h1::before {
+                       content: "paragraph";
                    }
         }
         
@@ -20,14 +24,16 @@
             body {
                 background-color: greenyellow;
             }
+            h1::before {
+                       content: "this is paragraph";
+                   }
         }
     </style>
 
 </head>
 <body>
-  <p>
-      this is first paragraph
-  </p>  
+  <h1>
+  </h1>  
   <p>
       this is another paragraph
   </p>
