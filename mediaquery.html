@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print {
+            .screen-only {
+                display: none;
+            }
+        }
+         
+        @media (max-width: 500px){
+                   body {background-color: red;;
+                   }
+        }
+        
+        @media (min-width: 499px){
+            body {
+                background-color: greenyellow;
+            }
+        }
+    </style>
+
+</head>
+<body>
+  <p>
+      this is first paragraph
+  </p>  
+  <p>
+      this is another paragraph
+  </p>
+  <p class="screen-only">this paragraph is not printed </p>
+</body>
+</html>
