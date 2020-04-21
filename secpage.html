@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, h2 {
+            color:red
+        }
+        ol > li { color: rosybrown}
+
+        input[type=text]{ 
+            background-color: red;
+        }
+        
+        input[type=number] { 
+            background-color:yellowgreen;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: green;
+        }
+        button:hover {
+            background-color: grey;
+        }
+
+        a::before {
+            content: "\21d2";
+        }
+
+        p::selection{
+            color:red;
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>big head line</h1>
+    <h2>small line </h2>
+    <ol>
+        <li> list item 1
+        </li>
+        <li> list item 2</li>
+        <ul>
+            <li>sublist</li>
+        </ul>
+    </ol>
+    <ul>
+        <li> sec list</li>
+        <li> <a href="#">link</a></li>
+    </ul>
+
+    <P>hello, whats going on </P>
+
+    <input name="name" type="text" placeholder="first name">
+    <input name="name" type="text" placeholder="last name">
+    <input name="name" type="number" placeholder="age">
+    <button>click me!</button>
+</body>
+</html>
